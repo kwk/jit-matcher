@@ -3,7 +3,7 @@ cmake_minimum_required (VERSION 2.8)
 project (jit-matcher)
 
 # A convenience variable:
-set(LLVM_ROOT "~/Development/llvm-install" CACHE PATH "Root of LLVM install.")
+set(LLVM_ROOT "" CACHE PATH "Root of LLVM install.")
 
 # A bit of a sanity check:
 if( NOT EXISTS ${LLVM_ROOT}/include/llvm )
